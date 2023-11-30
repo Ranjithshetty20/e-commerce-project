@@ -1,0 +1,47 @@
+<div class="navbar-continer text-gray-800">
+
+    <div class="image-continer">
+        <img class="image-logo" src="https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png"
+            alt="ecommerce-project">
+    </div>
+
+    <div style="display: flex; justify-content: space-between;">
+
+        <div class="navbar-content">
+
+            <a href="" routerLink="/">Home</a>
+
+        </div>
+
+        <div class="navbar-content">
+
+            <button (click)="openNavbarContent('men')" mat-raised-button>Men</button>
+        </div>
+        <div class="navbar-content">
+
+            <button (click)="openNavbarContent('women')" mat-raised-button>Women</button>
+        </div>
+    </div>
+
+    <div style="display: flex; align-items: center; margin-right: 10px; margin-left: 5px;">
+        <button (click)="navigateToCart('cart')" mat-raised-button>
+            <mat-icon>shopping_cart</mat-icon>
+        </button>   
+        <a *ngIf="false" href="">Login</a>
+    </div>
+
+<div>
+
+<div *ngIf="true" style="display: flex; align-items: center;">
+    <span style="font-size: large; font-weight: bold; display: inline-block; ">Ranjith</span>
+    <button style="height: 3%; width: 3%;" mat-button [matMenuTriggerFor]="menu">
+        <img  src="https://cdn.pixabay.com/photo/2014/04/03/11/56/avatar-312603_1280.png" alt="">
+    </button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Orders</button>
+  <button mat-menu-item>Profile</button>
+  <button mat-menu-item>Logout</button>
+</mat-menu>
+</div>
+</div>
+</div>

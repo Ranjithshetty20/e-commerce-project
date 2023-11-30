@@ -1,0 +1,30 @@
+.navbar-continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #69f0ae;
+    color: #0b0b0b;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    height: 10%;
+}
+.image-continer{
+    width: 40px;
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
+.image-logo{
+
+   
+    
+}
+.navbar-content{
+
+    margin: 10px;
+
+}

@@ -1,0 +1,19 @@
+<p class="">{{title}}</p>
+<div class="home-product-continer">
+ 
+    <ng-container *ngFor="let items of products">
+
+
+        <div class="home-product">
+            <app-home-product-cart [product]="items"/>
+        </div>
+
+
+
+    </ng-container>
+    
+
+
+
+</div>
+

@@ -1,0 +1,25 @@
+/* .home-product{
+    display: block;
+} */
+.product-box{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 15rem;
+}
+.image-continer{
+
+   height: 10rem;
+   width: 10rem;
+}
+.image{
+    height: auto;
+
+  
+}
+.product-details{
+    margin-top: 10%;
+
+}

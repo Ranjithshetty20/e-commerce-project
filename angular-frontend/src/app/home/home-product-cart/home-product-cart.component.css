@@ -2,27 +2,31 @@
     display: block;
 } */
 .product-box{
-    background-color: white;
+    /* background-color: white; */
+    /* background-color: grey; */
+  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    overflow: hidden;
     cursor: pointer;
     width: 15rem;
-    height: auto;
+    height: 22rem;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .image-continer{
-
-   height: 10rem;
-   width: 10rem;
+   height: auto;
 }
 .image{
-    height: auto;
-
-  
+    
+    height: 12rem;
+    width: 9rem;
 }
 .product-details{
-    color: black;
+    /* color: black; */
     margin-top: 10%;
-
+    text-align: center;
 }

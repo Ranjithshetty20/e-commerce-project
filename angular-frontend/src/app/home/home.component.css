@@ -7,9 +7,10 @@
     /* background-color: aquamarine; */
 }
 .products{
-
     overflow: hidden;
+    width: 100%;
 }
 .carousel-wrapper{
+    overflow: hidden;
     
 }

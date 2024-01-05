@@ -4,10 +4,10 @@
    padding: 20px 15px;
 }
 .home-product-continer{
-
    display: flex;
-   
- 
-    
-   
+   justify-content: space-around;
+}
+.main-continer{
+   margin-left: 1%;
+   margin-top: 2%;
 }
